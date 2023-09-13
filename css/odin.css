@@ -154,6 +154,9 @@ word-spacing: 2px;
     padding-bottom: 60px;
     text-align: center;
 }
+.main-5 h2{
+    margin-bottom: 40px;
+}
 .main-5-background{
     background-color:#efeff0;
 }
@@ -164,12 +167,18 @@ word-spacing: 2px;
     justify-content: center;
 }
 .main-5-card{
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 30px;
     background-color: white;
     text-align: center;
+    width: 220px;
+   
+ 
    
     
+}
+.main-5-card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .main-5 img{
 
@@ -180,9 +189,53 @@ word-spacing: 2px;
     margin-bottom: px;
     font-weight: 600;
     font-size: 22px;
-    color: #5e5f5f;
+    color: #3a3b3b;
+    
 }
-
+.main-5-button button{
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: rgba(173, 172, 172, 0.05) 0px 0px 0px 1px;
+    color: black;
+    margin-top: 60px;
+}
+.main-5-button button:hover{
+    background-color:rgb(255, 255, 255);
+}
+.main-6{
+    text-align: center;
+    margin-top: 70px;
+}
+.main-6 h2{
+    margin-bottom: 30px;
+}
+.main-6 img{
+    width: 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.main-6-right-content{
+    text-align: justify;
+}
+.main-6-left-content{
+ text-align: end;
+}
+.main-6-head span{
+    font-size: 17px;
+    border-bottom: 1px solid black;
+}
+.main-6-head span:hover{
+    border-bottom:none;
+}
+.main-6-text{
+    font-size: 18px;
+    color: #4b4c4c;
+}
+.main-6-sub{
+    margin-top: 50px;
+}
 
 
 
